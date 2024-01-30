@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+html {
+    scroll-padding: 4rem;
+}
+
+@font-face {
+    font-family: 'Bebas-Neue';
+    src: url(./font/Bebas-Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./font/Montserrat/Montserrat-Regular.ttf),
+        url(./font/Montserrat/Montserrat-Bold.ttf) url(./font/Montserrat/Montserrat-Black.ttf);
+}
+
+.navbar {
+    transition: background-color 0.35s ease-in-out;
+}
+
+.background-img {
+    background: url(./images/background.jpg) no-repeat top/cover;
+}
+
+.custom-color-white {
+    color: #fff;
+}
+
+.custom-bg-lightblack {
+    background-color: #222222;
+}
+
+.custom-bg-lighterblack {
+    background-color: rgba(34, 34, 34, 0.85);
+}
+
+.custom-hover-border:hover {
+    border-bottom: 1px solid white;
+}
+
+.custom-color-green {
+    color: #61AB45;
+}
+
+.custom-font-xxl {
+    font-size: 6.5rem;
+}
+
+.custom-font-xl {
+    font-size: 4.25rem;
+}
+
+.custom-font-lg {
+    font-size: 2.95rem;
+}
+
+.custom-font-md {
+    font-size: 1.0625rem;
+}
+
+.custom-bottom-15 {
+    bottom: 15%;
+}
+
+.bebas-neue-font {
+    font-family: Bebas-Neue;
+}
+
+.mission-statement {
+    height: 350px;
+}
+
+.heading-letter-spacing {
+    letter-spacing: 4px;
+}
+
+.custom-color-darkgreen {
+    color: darkgreen;
+}
+
+.custom-color-blue {
+    color: blue;
+}
+
+.custom-color-red {
+    color: red;
+}
+
+.home-section {
+    height: 100vh;
+    /* fallback */
+    height: 100dvh;
+}
+
+
+
+@media only screen and (min-width: 993px) {
+    .custom-background {
+        background-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .custom-background {
+        background-color: #222222;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .custom-font-lg {
+        font-size: 2.5rem;
+    }
+
+    .custom-bottom-15 {
+        bottom: 10%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .custom-font-xxl {
+        font-size: 4.125rem;
+    }
+
+    .custom-font-xl {
+        font-size: 3.5rem;
+    }
+}
